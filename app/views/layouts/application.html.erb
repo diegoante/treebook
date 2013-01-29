@@ -14,14 +14,16 @@
 	    	<a class="brand" href="#">Treebook</a>
 		    <ul class="nav">
 		      <li><%= link_to "All Statuses", statuses_path %></li>
-		      <li><a href="#">Link</a></li>
-		      <li><a href="#">Link</a></li>
 		    </ul>
 	    </div>
 	  </div>
 	</div>
 
 	<div class="container">
+		<!-- This paragraphs come from the suggestions done by installing devise -->
+		<p class="notice"><%= notice %></p>
+		<p class="alert"><%= alert %></p>
+
 		<%= yield %>
 	</div>
 
